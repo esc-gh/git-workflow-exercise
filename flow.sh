@@ -7,4 +7,4 @@ git add .
 git commit -m "New commit"
 
 # push changes
-git push -u main
+git push
