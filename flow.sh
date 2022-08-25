@@ -4,7 +4,9 @@
 git add .
 
 # commit changes
-git commit -m "New commit"
+echo Set commit message:
+read message
+git commit -m "$message"
 
 # push changes
 git push -u origin main
